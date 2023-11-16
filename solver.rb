@@ -5,7 +5,7 @@ class Solver
     elsif num.zero?
       1
     else
-      num * factorial(n - 1)
+      num * factorial(num - 1)
     end
   end
 
