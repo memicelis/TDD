@@ -29,10 +29,10 @@ describe Solver do
             expect(subject.fizzbuzz(3)).to eq("fizz")
         end
         it "returns buzz when is n is divisible by 5" do
-            expect(subject.fizzbuzz(3)).to eq("buzz")
+            expect(subject.fizzbuzz(5)).to eq("buzz")
         end
         it "returns fizz when is n is divisible by 3 and 5" do
-            expect(subject.fizzbuzz(3)).to eq("fizzbuzz")
+            expect(subject.fizzbuzz(15)).to eq("fizzbuzz")
         end
         it "return n as string " do
             expect(subject.fizzbuzz(7)).to eq("7")
